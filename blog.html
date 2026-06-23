@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="https://www.chamberscollege.edu.in/images/skr-gdc-logo.png"></a>
+           <div class="nav-links" id="navLinks">
+             <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+           </div>
+          <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Campus Placement Highlights for 2026</h1>
+    </section>
+<!---------blog page content---------->
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="https://www.chamberscollege.edu.in/admin/uploads/photos/1358WhatsApp%20Image%202026-02-13%20at%201.10.40%20PM.jpeg ">
+            <h2>Campus Placement Highlights for 2025-2026</h2>
+            <p>BRR & GKR Chamber's Degree college & PG College has acheived 516+ campus placements during the 2025-2026 academic year. Students secured oppurtunities in leading organization such as TCS, Tech Mahindra, Convergence, Axis Bank,ICICI Bank, Panasonic, Tata Electronics, Kia Motors, DigiTech, Neolync, Skyquad, Cogent, Shriram Finance, and many other reputed companies. Our dedicated placements cell focuses on skill development, training, and career guidance to help student build successful professional careers.  </p>
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+        <h3>Campus Placements</h3>
+        <div>
+            <span>TCS</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Tech Mahindra</span>
+            <span>20</span>
+        </div>
+        <div>
+            <span>Convergence</span>
+            <span>35</span>
+        </div>
+        <div>
+            <span>Shirram Finance</span>
+            <span>8</span>
+        </div>
+        <div>
+            <span>Tata Electronics</span>
+            <span>60</span>
+        </div>
+        <div>
+            <span>Axis Bank</span>
+            <span>14</span>
+        </div>
+        <div>
+            <span>ICICI Bank</span>
+            <span>14</span>
+        </div>
+        <div>
+            <span>Neolync</span>
+            <span>38</span>
+        </div>
+        <div>
+            <span>Digi Tech</span>
+            <span>20</span>
+        </div>
+        <div>
+            <span>Panasonic</span>
+            <span>6</span>
+        </div>
+        <div>
+            <span>Kia Motors</span>
+            <span>7</span>
+        </div>
+        <div>
+            <span>RS Hitech</span>
+            <span>14</span>
+        </div>
+        <div>
+            <span>Lerro</span>
+            <span>7</span>
+        </div>
+        <div>
+            <span>SNTH</span>
+            <span>17</span>
+        </div>
+        <div>
+            <span>Other Campanies</span>
+            <span>241</span>
+        </div>
+        
+        </div>
+    </div>
+</section>
+
+<!------------footer------------>
+
+<section class="footer">
+        <h4>About Us</h4>
+        
+        <p>Every student's dream matters to us.<br>
+        Through quality education and guidance, we help turn those dreams into reality.</p>
+        
+         <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+
+         </div>
+</section>   
+
+
+
+<script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>    

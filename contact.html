@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="https://www.chamberscollege.edu.in/images/skr-gdc-logo.png"></a>
+           <div class="nav-links" id="navLinks">
+             <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+           </div>
+          <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+<!-----------contact us------------------>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d61200.92872137404!2d81.713916!3d16.523167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37daed58ad3ea9%3A0x6743ab71759ced3!2sB.R.R%20%26%20G.K.R%20Chambers%20Degree%20%26%20PG%20College!5e0!3m2!1sen!2sin!4v1781162553009!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Lajapathiroy peta</h5>
+                    <p>Palakollu, West Godavari, Andhra Pradesh</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>9849712739</h5>
+                    <p>Monday to Saturday, 9AM to 5PM</p>
+                </span>
+            </div>
+            <div>
+               <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>cespkl@yahoo.com</h5>
+                    <p>Email us for your enquery</p>
+                </span>
+            </div>
+        </div>
+<div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter  email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea  rows="8" placeholder="Message"></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+</div>
+    </div>
+
+</section>
+
+<!------------footer------------>
+
+<section class="footer">
+        <h4>About Us</h4>
+        
+        <p>Every student's dream matters to us.<br>
+        Through quality education and guidance, we help turn those dreams into reality.</p>
+        
+         <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+
+         </div>
+</section>   
+
+
+
+<script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>    

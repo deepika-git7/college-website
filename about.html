@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="https://www.chamberscollege.edu.in/images/skr-gdc-logo.png"></a>
+           <div class="nav-links" id="navLinks">
+             <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+           </div>
+          <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+
+<!-------------about us content---------------------------->
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>B.R.R & G.K.R CHAMBERS DEGREE COLLEGE</h1>
+            <P>BRR & GRK College is a premier institution dedicated 
+                to providing quality education and fostering academic excellence.
+                 Established with the vision of empowering students through knowledge and innovation,
+                  the college offers a supportive learning environment that encourages intellectual growth, 
+                  creativity, and personal development.<br>
+
+                  <br>Our experienced faculty members are committed to guiding students
+                   toward achieving their academic and career goals. 
+                   Along with strong academic programs, we emphasize discipline, leadership, ethical values, and community engagement.<br>
+
+                  <br> At BRR & GRK College, we strive to prepare students for the challenges of the modern world by equipping them with the skills, 
+                   knowledge, and confidence needed to succeed in their chosen fields.
+                    We take pride in nurturing future leaders and responsible citizens who contribute positively to society.</P><br>
+              <a href="" class="hero-btn red-btn">EXPLORE NOW</a>      
+        </div>
+        <div class="about-col">
+            <img src="https://mail.chamberscollege.edu.in/admin/uploads/photos/3280WhatsApp%20Image%202026-03-26%20at%207.40.42%20PM.jpeg">
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!------------footer------------>
+
+<section class="footer">
+        <h4>About Us</h4>
+        
+        <p>Every student's dream matters to us.<br>
+        Through quality education and guidance, we help turn those dreams into reality.</p>
+        
+         <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+
+         </div>
+</section>   
+
+
+
+<script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
