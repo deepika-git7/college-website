@@ -1,11 +1,12 @@
 
 import sqlite3
 
-con = sqlite3.connect("college.db")
 
-students = con.execute("SELECT * FROM students")
+def get_students_info():
+    con = sqlite3.connect("college.db")
+    try:
+        students = con.execute("SELECT * FROM students").fetchall()
+        return students
+    finally:
+        con.close()
 
-for student in students:
-    print(student)
-
-con.close()

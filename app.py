@@ -1,6 +1,7 @@
 
 from flask import Flask, render_template, request
 import sqlite3
+from view_students import get_students_info
 
 app = Flask(__name__)
 
@@ -36,6 +37,15 @@ def register():
     con.close()
 
     return "Student registered successfully!"
+
+
+@app.route("/info")
+def student_info():
+    students = get_students_info()
+    print(students)
+    return render_template("students_info.html", students=students)
+    
+
 
 if __name__ == "__main__":
     app.run(debug=True)
