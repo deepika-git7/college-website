@@ -9,7 +9,18 @@ def get_db():
 
 @app.route("/")
 def home():
-    return render_template("register.html")
+    return render_template("index.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+
+@app.route("/course")
+def course():
+    return render_template("course.html")
+
+# return render_template("register.html")
 
 @app.route("/register", methods=["POST"])
 def register():
